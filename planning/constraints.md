@@ -11,8 +11,9 @@ Some boundaries around our project.
   - technologies (sometimes a client will tell you what to use)
 -->
 
-- short deadline; 1 week
+- short deadline; 2 week
 - github pages only
+- No source code provided
 
 ## Internal: Involuntary
 
