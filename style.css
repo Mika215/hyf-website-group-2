@@ -1,11 +1,4 @@
 body {
-  /* font-family: helvetica, arial, sans-serif;*/
-  /*margin: 1em;*/
-   /*text-align: center;*/
-}
-
-* {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,11 +9,12 @@ body {
 }
 
 header {
-  height: 100px;
-  background: white;
+  display: flex;
+  height: 85px;
   width: 100%;
-  z-index: 12;
   position: fixed;
+  padding: 0px 20px;
+  box-sizing: border-box;
 }
 
 /* nav bar */
@@ -66,14 +60,13 @@ nav .btn {
   width: 30%;
   float: left;
   line-height: 100px;
-   margin-left:130px;
+  margin-left: 130px;
 }
 
 .logo .logo_hyf {
   width: 140px;
   height: 88px;
 }
-
 
 /*Motto*/
 .motto {
