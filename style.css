@@ -149,13 +149,16 @@ nav .btn {
   justify-content: flex-start;
   max-height: none;
   max-width: none;
-  width: 170px;
   z-index: 0;
   position: static;
   background: none 0% 0% / auto transparent;
   flex: 0 1 170px;
   margin: 0px;
   padding: 0px;
+}
+.business-partners-display img
+{  width: 170px;
+
 }
 .partners-text {
   display: inline-flex;
