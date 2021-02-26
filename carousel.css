@@ -120,6 +120,7 @@ li {
 .carousel__slide:nth-child(even) {
   /* background-color: #99f; */
   background-color: rgb(255, 255, 255);
+  /* background: transparent; */
 }
 .carousel__slide:nth-child(odd) {
   /* background-color: #99f; */
