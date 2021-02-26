@@ -48,13 +48,10 @@ and required adjustments are done*/
 }
 
 .success-stories {
-  /* max-width: 37.5rem; */
-  max-width: 700px;
-  height: 500px;
-
+  max-width: 750px;
+  /* height: 500px; */
   margin: 0 auto;
   padding: 0 1.25rem;
-  /* font-family: "Lato", sans-serif; */
 }
 
 .success-stories * {
