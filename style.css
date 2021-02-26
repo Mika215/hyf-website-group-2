@@ -6,12 +6,6 @@
   font-family: "Space Mono", monospace;
 }
 
-body {
-  /* font-family: helvetica, arial, sans-serif;*/
-  /*margin: 1em;*/
-  /*text-align: center;*/
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -399,8 +393,6 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 0;
-
-  /* border: 2px solid yellow; */
 }
 
 .contact-form {
@@ -409,16 +401,10 @@ a {
   color: #fff;
   font-weight: 700;
   padding: 50px 100px;
-  /* border: 2px solid green; */
 }
 
 .map {
   width: 55%;
-  /* border: 2px solid blue; */
-}
-
-.contact-form-text {
-  /* border: 2px solid red; */
 }
 
 .contact-form-text h1 {
@@ -586,23 +572,29 @@ footer {
 
 /* Success Stories Section */
 
+.success-stories {
+  margin: 20px 0;
+}
+
 .slide_container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* background: transparent; */
   text-align: center;
   font-family: "Work Sans", sans-serif;
+  padding: 40px;
+}
+
+.success-stories h2 {
+  text-align: center;
+  margin: 0 auto 20px;
 }
 
 .success-stories img {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 
 .success-stories h4 {
   font-size: 1rem;
-
   font-weight: 700;
   color: rgb(28, 34, 148);
   padding: 10px;
@@ -610,9 +602,7 @@ footer {
 
 .success-stories p {
   color: rgb(45, 48, 55);
-
   font-family: "Space Mono", monospace;
-
   font-weight: 300;
 }
 
@@ -620,4 +610,5 @@ footer {
   color: #4a50bb;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
 }
