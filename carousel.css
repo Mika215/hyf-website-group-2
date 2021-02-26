@@ -47,8 +47,11 @@ and required adjustments are done*/
   }
 }
 
-.success-stories body {
-  max-width: 37.5rem;
+.success-stories {
+  /* max-width: 37.5rem; */
+  max-width: 500px;
+  height: 500px;
+
   margin: 0 auto;
   padding: 0 1.25rem;
   font-family: "Lato", sans-serif;
@@ -108,21 +111,31 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
+  /* background-color: #f99; */
+  background-color: rgb(255, 255, 255);
+
   counter-increment: item;
 }
 
 .carousel__slide:nth-child(even) {
-  background-color: #99f;
+  /* background-color: #99f; */
+  background-color: rgb(255, 255, 255);
+}
+.carousel__slide:nth-child(odd) {
+  /* background-color: #99f; */
+  background-color: rgb(255, 255, 255);
 }
 
+/* here is the content */
+
 .carousel__slide:before {
-  content: counter(item);
+  /* content: counter(item); */
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -40%, 70px);
-  color: #fff;
+  color: #000;
   font-size: 2em;
 }
 
