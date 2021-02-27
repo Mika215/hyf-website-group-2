@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
     <title>Hack Your Future Belgium</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="carousel.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -31,8 +32,8 @@
         <h1>Helping new talent into the tech world</h1>
       </div>
     </section>
-    
-     <!--Program summary section-->
+
+    <!--Program summary section-->
 
     <section class="our-program">
       <div class="content">
@@ -59,76 +60,209 @@
       <div class="impact">
         <h2>Our Impact</h2>
         <p>
-        We graduated over 80 people in Belgium and more than 200 globally. In Belgium, over 70% found and retained a high-quality job as a developer.
+          We graduated over 80 people in Belgium and more than 200 globally. In
+          Belgium, over 70% found and retained a high-quality job as a
+          developer.
         </p>
       </div>
       <div class="brief-stats">
         <div class="three-stats">
           <h1>80</h1>
           <p>
-          Students graduated since HackYourFuture Belgium was founded in 2018.
+            Students graduated since HackYourFuture Belgium was founded in 2018.
           </p>
         </div>
         <div class="three-stats">
           <h1>70%</h1>
-          <p>
-          Of our graduates find an internship, a job or start university.
-          </p>
+          <p>Of our graduates find an internship, a job or start university.</p>
         </div>
         <div class="three-stats">
           <h1>200+</h1>
-          <p>
-          Alumni in the Netherlands, Denmark, Belgium and Canada.
-          </p>
+          <p>Alumni in the Netherlands, Denmark, Belgium and Canada.</p>
         </div>
       </div>
     </section>
 
-
     <!--HYF Core Value-->
- <section class="core_section">
-  <div class="core_main">
-     <div class="sub_main" >
-      <div class="section_main" >
-        <div class="row">
-      <h3 class="h3_title"> OUR CORE VALUES  </h3>
-      <div class="column" >
-        <img src="images\community.svg" alt="comminity">
-        <h2 class="h2_title">Community</h2>
-        <p class="p_text">We’re largely dependent on volunteers. 
-          That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
+    <section class="core_section">
+      <div class="core_main">
+        <div class="sub_main">
+          <div class="section_main">
+            <div class="row">
+              <h3 class="h3_title">OUR CORE VALUES</h3>
+              <div class="column">
+                <img src="images\community.svg" alt="comminity" />
+                <h2 class="h2_title">Community</h2>
+                <p class="p_text">
+                  We’re largely dependent on volunteers. That’s what makes us an
+                  engaged grassroots community, as our students call it ‘the HYF
+                  family’.
+                </p>
+              </div>
+              <div class="column">
+                <img src="images\diversity.svg" alt="diversity" />
+                <h2 class="h2_title">Diversity & inclusiveness</h2>
+                <p class="p_text">
+                  Our program is adapted to suit people with different
+                  backgrounds, often in vulnerable situations. We teach on
+                  Sundays to allow everyone to take control of their personal
+                  lives during the week.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <img src="images/commitment.svg" alt="Commitment" />
+                <h2 class="h2_title">Commitment</h2>
+                <p class="p_text">
+                  Our program is free of charge, although we ask for strong
+                  commitment during our 7 month-journey. And you know what? Many
+                  alumni stay actively involved!
+                </p>
+              </div>
+              <div class="column">
+                <img src="images/open.svg" alt="Open" />
+                <h2 class="h2_title">Open</h2>
+                <p class="p_text">
+                  Sharing is caring. Our curriculum is 100% open. We believe in
+                  knowledge for the many, not the few.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="column" >
-        <img src="images\diversity.svg" alt="diversity">
-        <h2 class="h2_title">Diversity & inclusiveness</h2>
-        <p class="p_text">Our program is adapted to suit people with different backgrounds, often in vulnerable situations. 
-          We teach on Sundays to allow everyone to take control of their personal lives during the week.
-          
-        </p>
+    </section>
+
+    <!-- Success Stories Section-->
+    <section class="success-stories">
+      <h2>OUR SUCCESS STORIES</h2>
+
+      <!-- This code is based on https://css-tricks.com/css-only-carousel/  -->
+
+      <div class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <!-- here is the content added to the carousel (@author: erkam)-->
+            <div class="slide_container">
+              <img
+                src="images/success/zeynep.png"
+                alt="Zeynep Hanim - Optis (Cronos)"
+              />
+              <h4>Zeynep Hanim - Optis (Cronos)</h4>
+              <p class="job">Full-stack Developer</p>
+              <p>
+                "HYF is a light that I saw at the bottom as well, a hope that I
+                held onto as I was building a new life in a new country. It gave
+                me a chance not only to improve my knowledge but to boost my
+                confidence. Also, it gave me a chance to meet many wonderful
+                people."
+              </p>
+            </div>
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to last slide</a
+              >
+              <a href="#carousel__slide2" class="carousel__next"
+                >Go to next slide</a
+              >
+            </div>
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="slide_container">
+              <img
+                src="images/success/edouardo .png"
+                alt="Edouardo - Capgemini"
+              />
+              <h4>Edouardo - Capgemini</h4>
+              <p class="job">IT Consultant</p>
+              <p>
+                "Hack your future definitely built the bridge between the
+                unknown and the doors of my personal success, writing code is
+                now part of my life and I will never forget the lessons learned
+                and time spent with the fellow students and coaches. A big thank
+                you!"
+              </p>
+            </div>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="slide_container">
+              <img src="images/success/gita.png" alt="Gita - ttl.be" />
+
+              <h4>Gita - ttl.be</h4>
+              <p class="job">QA Developer</p>
+              <p>
+                "What HYF brought to me is you should never give up and always
+                try to find a way when you’re stuck. I’ve learned that dreaming
+                big without big efforts will bring you nowhere. HackYourFuture
+                was part of my journey to become who I am now."
+              </p>
+            </div>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+            <div class="slide_container">
+              <img src="images/success/ramzi.png" alt="Ramzi - AppTweak" />
+
+              <h4>Ramzi - AppTweak</h4>
+              <p class="job">UX/UI Designer</p>
+              <p>
+                "Hack Your Future is one of the greatest programs that I joined.
+                It has opened many doors for me to learn a lot about software
+                and web development. Without this program, I wouldn't be at the
+                current job which requires good knowledge in front-end
+                development"
+              </p>
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide1" class="carousel__next"
+                >Go to first slide</a
+              >
+            </div>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button"
+                >Go to slide 4</a
+              >
+            </li>
+          </ol>
+        </aside>
       </div>
-    </div>
-    
-    <div class="row" >
-      <div class="column" >
-        <img src="images/commitment.svg" alt="Commitment">
-        <h2 class="h2_title">Commitment</h2>
-        <p class="p_text">Our program is free of charge, 
-          although we ask for strong commitment during our 7 month-journey. And you know what? Many alumni stay actively involved!
-        </p>
-      </div>
-      <div class="column" >
-        <img src="images/open.svg" alt="Open">
-        <h2 class="h2_title">Open</h2>
-        <p class="p_text">Sharing is caring. Our curriculum is 100% open. 
-          We believe in knowledge for the many, not the few.
-        </p>
-      </div>
-    </div>
-    
-  </div>
-</div>
-</div>
-</section>       
+    </section>
 
     <!--Business Partners Section-->
 
@@ -145,50 +279,62 @@
     </section>
     <div class="business-partners-display">
       <img alt="PrintSimple logo" src="images/1-1-print-smple.svg" />
-      <img alt="Open Knowledge Belgium logo" src="images/1-2-open%20-knowledge.svg" />
-      <img alt="Digital Belgium logo" src="images/1-3-digital-belgium.svg"/> 
+      <img
+        alt="Open Knowledge Belgium logo"
+        src="images/1-2-open%20-knowledge.svg"
+      />
+      <img alt="Digital Belgium logo" src="images/1-3-digital-belgium.svg" />
       <img alt="Artevelde Hoge School logo" src="images/1-4-artevelde.svg" />
-      <img alt="Bruxelles Economie et Emploi logo" src="images/1-5-bruxelles.svg"/>
+      <img
+        alt="Bruxelles Economie et Emploi logo"
+        src="images/1-5-bruxelles.svg"
+      />
       <img alt="Microsoft logo" src="images/1-6-Microsoft.svg" />
       <img alt="Duo for Job logo" src="images/1-7-Duo .png" />
-      <img alt="Member logo png" src="images/2-1-member.png"/>
+      <img alt="Member logo png" src="images/2-1-member.png" />
       <img alt="Data Camp logo" src="images/2-2-datacamp.svg" />
-      <img alt="UX Antwerp logo" src="images/2-3-Antwerp.png"/>
-      <img alt="Open Recognition logo"src="images/2-4-open-recognition.png" />
+      <img alt="UX Antwerp logo" src="images/2-3-Antwerp.png" />
+      <img alt="Open Recognition logo" src="images/2-4-open-recognition.png" />
       <img alt="Bruxelles Formation logo" src="images/2-5-Brussels.png" />
     </div>
-<!--Donation-->
-<section class="donation">
-  <div class="container">
-    <div class="message">
-    <h2>Support the developers of tomorrow</h2> 
-    <p>
-      Help refugees build digital & soft skills for a career in web development. We are a non-profit organization. Thanks to your support we can improve and keep our program free of charge for students.
-    </p>
-    </div>
-    <form class="donation-form">
-      <div class="radio">
-        <input type="radio" name="when"> One time
-        <input type="radio" name="when"> Monthly
+    <!--Donation-->
+    <section class="donation">
+      <div class="container">
+        <div class="message">
+          <h2>Support the developers of tomorrow</h2>
+          <p>
+            Help refugees build digital & soft skills for a career in web
+            development. We are a non-profit organization. Thanks to your
+            support we can improve and keep our program free of charge for
+            students.
+          </p>
+        </div>
+        <form class="donation-form">
+          <div class="radio">
+            <input type="radio" name="when" /> One time
+            <input type="radio" name="when" /> Monthly
+          </div>
+          <p>Select your amount</p>
+          <div class="payment-amount">
+            <div tabindex="1" class="amount">€10</div>
+            <br />
+            <div tabindex="2" class="amount">€25</div>
+            <br />
+            <div tabindex="3" class="amount">€50</div>
+            <br />
+            <div tabindex="4" class="amount">€100</div>
+            <br />
+            <div tabindex="5" class="amount">Full scholarship</div>
+            <br />
+          </div>
+          <p>Amount</p>
+          <input type="number" class="options" />
+          <p>Message</p>
+          <input type="text" class="options" />
+          <button class="donate-btn">Donate</button>
+        </form>
       </div>
-      <p>
-        Select your amount
-      </p>
-      <div class="payment-amount">
-        <div tabindex="1" class="amount">€10</div><br>
-        <div tabindex="2" class="amount">€25</div><br>
-        <div tabindex="3" class="amount">€50</div><br>
-        <div tabindex="4" class="amount">€100</div><br>
-        <div tabindex="5" class="amount">Full scholarship</div><br>
-      </div>
-      <p>Amount</p>
-      <input type="number" class="options">
-      <p>Message</p>
-      <input type="text" class="options">
-      <button class="donate-btn">Donate</button>
-    </form>
-  </div>
-</section>
+    </section>
     <!-- Contact Us Section -->
     <section class="contact-us">
       <!-- contact form -->
@@ -246,19 +392,26 @@
       <div class="address">
         <h2>Hack Your Future</h2>
         <p>
-          BeCentral<br>
-          Cantersteen 12<br>
-          1000 Bruxelles<br>
+          BeCentral<br />
+          Cantersteen 12<br />
+          1000 Bruxelles<br />
           contact@hackyourfuture.be
         </p>
       </div>
       <div class="favicons">
-        <a href="https://www.facebook.com/HackYFutureBE/"><img src="images/facebook.svg" alt="Facebook"></a>
-        <a href="https://twitter.com/HackYFutureBE"><img src="images/twitter.svg" alt="Twitter"></a>
-        <a href="https://github.com/HackYourFutureBelgium"><img src="images/github.svg" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/company/hackyourfuture-belgium/"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://www.facebook.com/HackYFutureBE/"
+          ><img src="images/facebook.svg" alt="Facebook"
+        /></a>
+        <a href="https://twitter.com/HackYFutureBE"
+          ><img src="images/twitter.svg" alt="Twitter"
+        /></a>
+        <a href="https://github.com/HackYourFutureBelgium"
+          ><img src="images/github.svg" alt="GitHub"
+        /></a>
+        <a href="https://www.linkedin.com/company/hackyourfuture-belgium/"
+          ><img src="images/linkedin.svg" alt="LinkedIn"
+        /></a>
       </div>
-      
     </footer>
   </body>
 </html>
